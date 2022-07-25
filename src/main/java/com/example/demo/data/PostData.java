@@ -11,8 +11,8 @@ import javax.persistence.Table;
 @Table(name="post")
 public class PostData {
 	
-	@Column
-	private long userId;
+	        @Column
+	        private long userId;
 	
 			@Id
 		    @GeneratedValue(strategy = GenerationType.IDENTITY)
